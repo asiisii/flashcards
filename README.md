@@ -1,7 +1,7 @@
 # Flash Cards
 
 ## Abstract 
-This quiz application simulates set of flashcards that are in the `data.js` file. When `node index.js` is entered from the root of the project, the quiz application will run. After running the application, user will be able to see a question with 3 multiple choice in it. User will get feedback instantly after answering each question. After finishing up the quiz, user will be able to see their score in percentage. `ctrl + c` to get out from the game.
+This quiz application simulates set of flashcards that are in the `data.js` file. When `node index.js` is entered from the root of the project, the quiz application will run. After running the application, user will be able to see a question with 3 multiple choice in it. User will get feedback instantly after answering each question. 
 
 ![App displayed](assests/running-app.gif)
 

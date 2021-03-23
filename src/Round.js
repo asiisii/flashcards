@@ -30,7 +30,9 @@ class Round {
 
   endRound() {
     const score = this.calculatePercentCorrect();
-    console.log(`** Round over! ** You answered ${score}% of the questions correctly!`) 
+    const result = `** Round over! ** You answered ${score}% of the questions correctly!`;
+    console.log(result) 
+    return result;
   }
 
 }

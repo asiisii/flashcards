@@ -8,10 +8,8 @@ class Round {
     this.inCorrectGuesses = [];
   }
 
-  returnCurrentCard = () => {
-    return this.currentCard;
-  }
-
+  returnCurrentCard = () => this.currentCard;
+  
   takeTurn = (guess) => {
     const card = this.currentCard;
     const turn = new Turn(guess, card);

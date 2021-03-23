@@ -19,7 +19,7 @@ class Game {
    
     const deck = new Deck(cards);
     this.currentRound = new Round(deck);
-    this.printMessage(deck, this.currentRound);
+    this.printMessage(deck);
     this.printQuestion(this.currentRound);
   }
 

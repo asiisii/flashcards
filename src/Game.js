@@ -13,7 +13,12 @@ class Game {
   start() {
     let cards = [];
     prototypeQuestions.forEach(function(cardInfo) {
-      const card = new Card(cardInfo.id, cardInfo.question, cardInfo.answers, cardInfo.correctAnswer);
+      const card = new Card(
+        cardInfo.id, 
+        cardInfo.question, 
+        cardInfo.answers, 
+        cardInfo.correctAnswer
+      );
       cards.push(card);
     });
    
@@ -31,6 +36,7 @@ class Game {
   printQuestion(round) {
     util.main(round);
   }
+  
 }
 
 module.exports = Game;
